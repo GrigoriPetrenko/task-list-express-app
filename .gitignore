@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+
+# production build
+/build
+
+# logs
+/logs
+
+# environment variables
+.env
+
+# IDE files
+.vscode/
+.idea
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+#comments
+cmdComands.txt

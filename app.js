@@ -26,7 +26,12 @@ class TasksDB {
 
   // Метод для додавання нового об'єкта в масив: додає id і isFavourite
   createTask (newTask) {
-    this.tasks.push({ ...newTask, id: uuidv4(), isDone: false })
+    this.tasks.push({
+      ...newTask,
+      id: uuidv4(),
+      isDone: false,
+      createdDate: format(new Date(), 'Y-MM-dd')
+    })
     return this.tasks[this.tasks.length - 1]
   }
 

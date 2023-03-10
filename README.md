@@ -37,4 +37,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 6. Create a new Pull Request
 
 Postman example query:
-get http://localhost:5000/contacts
+get http://localhost:5001/tasks
+post http://localhost:5001/tasks?name=Task3
